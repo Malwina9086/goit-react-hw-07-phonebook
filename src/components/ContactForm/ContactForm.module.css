@@ -1,0 +1,58 @@
+.contactForm {
+  width: 500px;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.formInput {
+  max-width: 400px;
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formButton {
+  background-color: #4caf50;
+  color: white;
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: #45a049;
+}
+
+.formLabel span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formInput[name='name'],
+.formInput[name='number'] {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formInput[name='name']:focus,
+.formInput[name='number']:focus {
+  outline: none;
+  border: 1px solid #4caf50;
+}

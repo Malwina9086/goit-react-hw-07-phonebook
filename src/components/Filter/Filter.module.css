@@ -1,0 +1,18 @@
+.filterLabel {
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.spaceBetweenLabelAndInput {
+  margin-bottom: 8px;
+}
+
+.filterInput {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width: 400px;
+  box-sizing: border-box;
+}
